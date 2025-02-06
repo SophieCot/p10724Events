@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import { getMonth } from "../../helpers/Date";
-
 import "./style.scss";
 
 const EventCard = ({
@@ -41,5 +40,6 @@ EventCard.defaultProps = {
   imageAlt: "image",
   small: false,
 }
+
 
 export default EventCard;
